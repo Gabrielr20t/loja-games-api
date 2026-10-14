@@ -1,0 +1,22 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+span{
+    padding: 10px;
+}
+
+  img{
+    height: 50px;
+    width: 50px;  
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a{
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }

@@ -1,0 +1,25 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Neon Retrô",
+      "descricao": "Clássicos do fliperama em neon.",
+      "foto": "jogo1.PNG",
+      "preco": 300
+    },
+    {
+      "id": 2,
+      "produto": "Aventura Pixel",
+      "descricao": "Pule obstáculos e colete estrelas.",
+      "foto": "jogo2.PNG",
+      "preco": 200
+    },
+    {
+      "id": 3,
+      "produto": "Controle Pro",
+      "descricao": "Desafios para jogar com os amigos.",
+      "foto": "jogo3.PNG",
+      "preco": 400
+    }
+  ]
+}

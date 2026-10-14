@@ -1,0 +1,23 @@
+<main>
+    <mat-card id="section-login">
+        <h2>Login</h2>
+
+        <form (ngSubmit)="fazerLogin()">
+            <mat-form-field appearance="outline">
+                <mat-label>Usuário</mat-label>
+                <input matInput type="text" name="usuario" [(ngModel)]="usuario" >
+                <mat-icon matSuffix>person</mat-icon>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Senha</mat-label>
+                <input matInput type="password" name="senha" [(ngModel)]="senha">
+                <mat-icon matSuffix>lock</mat-icon>
+            </mat-form-field>
+
+            <button mat-raised-button color="primary" type="submit">Entrar</button>
+        </form>
+
+        <p class="mensagem" *ngIf="mensagem">{{ mensagem }}</p>
+    </mat-card>
+</main>
